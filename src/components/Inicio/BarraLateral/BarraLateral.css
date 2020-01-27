@@ -1,0 +1,142 @@
+.barra {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 250px;
+  background-color: #262d44;
+  box-shadow: rgb(151, 156, 170) 2px 0px 5px;
+  z-index: 1;
+  align-items: center;
+  min-height: 700px;
+}
+
+#barra_lista {
+  padding: 0;
+  margin-top: 140px;
+  width: 250px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#barra_lista a {
+  text-decoration: none;
+}
+
+#barra_lista .link-seccion {
+  height: 6vh;
+  width: 220px;
+  background-color: transparent;
+  padding: 12px 12px;
+  color: #ddd;
+  font-size: .8em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+#barra_lista .link-seccion span {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.lista-proyectos {
+  display: flex;
+  background-color: #374163;
+}
+
+.lista-proyectos a {
+  text-decoration: none;
+}
+
+.proyecto {
+  width: 250px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: transparent;
+  color: #ddd;
+  font-size: .8em;
+  transition: all .3s ease-in-out;
+}
+
+.proyecto:hover {
+  background-color: #374163;
+}
+
+.proyecto p {
+  width: 180px;
+  margin-top: 0px;
+}
+.proyecto .box {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background: #099;
+  border-radius: 15%;
+}
+#logo-empresa {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+
+#logo-empresa svg {
+  width: 200px;
+}
+#logo-empresa img {
+  width: 100px;
+  flex: 1;
+}
+
+#logo-empresa p {
+  width: 100px;
+  flex: 1;
+}
+  
+#logo-acacia{
+  display: flex;
+  flex-direction: row;
+  top: 2vh;
+  position: absolute;
+  align-items: center;
+}
+
+#logo-acacia img {
+  flex: 1;
+  width: 100px;
+}
+
+#logo-acacia span {
+  font-size: 1em;
+  padding-top: 15px;
+  margin-left: 5px;
+  font-family: 'Roboto Slab', sans-serif;
+}
+  
+#menu-list-grow {
+  text-transform: initial;
+}
+
+#menu-list-grow > li {
+  font-size: 1em;
+}
+
+li > svg {
+  margin-right: 10px;
+} 

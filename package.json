@@ -1,0 +1,38 @@
+{
+  "name": "acacia",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@material-ui/core": "^4.8.2",
+    "axios": "^0.19.0",
+    "chart.js": "^2.9.3",
+    "firebase": "^7.6.1",
+    "firebase-admin": "^8.9.0",
+    "font-awesome": "^4.7.0",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.8.0",
+    "react-dom": "^16.8.6",
+    "react-export-excel": "^0.5.3",
+    "react-fontawesome": "^1.7.1",
+    "react-media": "^1.9.2",
+    "react-redux": "^5.1.2",
+    "react-redux-firebase": "^2.5.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-firestore": "^0.11.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

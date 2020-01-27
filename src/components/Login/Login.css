@@ -1,0 +1,79 @@
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    font-family: Roboto Slab;
+    background-color: rgba(248, 248, 248, 0.493);
+}
+
+.caja-login{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 370px;
+    margin-top: 14vh;
+    min-width: 400px;
+}
+
+.card-header {
+    text-align: center;
+    color: #767782;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+#boton-inicio-sesion{
+    flex: 1;
+    margin: 15px;
+    background-color: #004ecbc4;
+    font-weight: bold;
+}
+  
+#boton-inicio-sesion:hover {
+    background-color: #2278ff;
+    transition-duration: 0.2s;
+}
+.card-header > svg {
+    padding-right: 16px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group > input {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: .9em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 228, 228);
+}
+
+.logo-image-inicio{
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 33vw;
+}
